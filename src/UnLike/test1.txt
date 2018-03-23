@@ -1,0 +1,36 @@
+class test
+	integer s[100,2]
+	string test,you,t[3]
+	func my() as integer
+		integer ss[111,22],tt,t
+		string s
+	end func
+end class
+
+
+func t() as integer
+end func
+
+
+
+func test()
+	integer s[3,333]
+end func
+
+func init()
+end func
+
+
+
+func testinit()
+
+end func
+
+testinit(s,sdf,df,d,dfd,d)
+
+@=========================================
+@
+@你好我们
+@
+@=========================================
+

@@ -1,0 +1,7 @@
+@======================================
+@UnLike Graphics Library
+@======================================
+
+func SetPen(integer style,integer width,integer cr)
+	asm "in 0,30"
+end func

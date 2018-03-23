@@ -1,0 +1,36 @@
+in 0,0
+mov [strtemp],r3
+mov r3,var_a
+push [r3]
+push 1
+pop r2
+pop r1
+cal add r1,r2
+push r1
+pop [var_a]
+jmp_0:
+mov r3,var_a
+push [r3]
+push 100
+pop r2
+pop r1
+cmp r1,r2
+jpc b jmp_2
+push 0
+jmp jmp_3
+jmp_2:
+push 1
+jmp_3:
+pop r1
+cmp r1,0
+jpc e jmp_1
+mov r3,var_a
+push [r3]
+push 1
+pop r2
+pop r1
+cal add r1,r2
+push r1
+pop [var_a]
+data strtemp 0
+data var_a 0

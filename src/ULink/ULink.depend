@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1424953969 source:/myc/Old/我的程序/newUnLike/src/ULink/main.cpp
+	<iostream>
+	<stdlib.h>
+	"ULink.h"
+
+1425734084 /myc/Old/我的程序/newUnLike/src/ULink/ULink.h
+	"../SToken.h"
+
+1426854327 /myc/Old/我的程序/newUnLike/src/SToken.h
+	"SString.h"
+
+1427288225 /myc/Old/我的程序/newUnLike/src/SString.h
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+
+1428067471 source:/myc/Old/我的程序/newUnLike/src/ULink/ULink.cpp
+	<iostream>
+	<stdlib.h>
+	"ULink.h"
+

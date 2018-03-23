@@ -1,0 +1,86 @@
+in 0,0
+mov [strtemp],r3
+;=======================================
+;源文件:stdlib.ikh
+;=======================================
+push const_str1
+call func_test
+exit
+;=======================================
+;源文件:stdlib.ikh
+;=======================================
+;=======================================
+;Function:printint
+;=======================================
+func_printint:
+cal sub rt,4
+mov r2,rt
+cal add r2,0
+pop [r2]
+out 0,[r2]
+jmp_0:
+cal add rt,4
+ret
+;=======================================
+;Function:printstr
+;=======================================
+func_printstr:
+cal sub rt,4
+mov r2,rt
+cal add r2,0
+in 0,0
+mov [r2],r3
+pop r3
+in [r2],2
+out 1,[r2]
+jmp_1:
+mov r1,rt
+cal add r1,0
+in [r1],1
+cal add rt,4
+ret
+;=======================================
+;Function:test
+;=======================================
+func_test:
+cal sub rt,8
+mov r2,rt
+cal add r2,0
+in 0,0
+mov [r2],r3
+pop r3
+in [r2],2
+mov r1,rt
+cal add r1,4
+in 0,0
+mov [r1],r3
+mov r3,rt
+cal add r3,0
+push [r3]
+pop r2
+mov r3,rt
+cal add r3,4
+mov r1,r3
+mov r3,r2
+in [r1],2
+push const_str0
+call func_printstr
+mov r3,rt
+cal add r3,4
+push [r3]
+call func_printstr
+jmp_2:
+mov r1,rt
+cal add r1,0
+in [r1],1
+mov r1,rt
+cal add r1,4
+in [r1],1
+cal add rt,8
+ret
+data strtemp 0
+;=======================================
+;源文件:stdlib.ikh
+;=======================================
+data const_str0 "hihi"
+data const_str1 "Hello"

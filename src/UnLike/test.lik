@@ -1,0 +1,11 @@
+import "stdlib.ikh"
+
+func test(string str) 
+	string t
+	
+	t=str
+	printstr("hihi")
+	printstr(t)
+end func
+
+test("Hello")

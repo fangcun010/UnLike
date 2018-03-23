@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1427890447 source:/myc/Old/我的程序/newUnLike/src/UnLikeVM/main.cpp
+	"UnLikeVM.h"
+	<iostream>
+
+1428492840 /myc/Old/我的程序/newUnLike/src/UnLikeVM/UnLikeVM.h
+	<GL/freeglut.h>
+	<GL/glext.h>
+	"../SString.h"
+
+1427288225 /myc/Old/我的程序/newUnLike/src/SString.h
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+
+1428492725 source:/myc/Old/我的程序/newUnLike/src/UnLikeVM/UnLikeVM.cpp
+	"UnLikeVM.h"
+	<iostream>
+

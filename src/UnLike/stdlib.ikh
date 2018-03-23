@@ -1,0 +1,7 @@
+func printint(integer num)
+	asm "out 0,[r2]"
+end func
+
+func printstr(string str)
+	asm "out 1,[r2]"
+end func

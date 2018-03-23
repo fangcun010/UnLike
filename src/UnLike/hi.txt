@@ -1,0 +1,4 @@
+integer si
+
+si=1*si+2/1
+
